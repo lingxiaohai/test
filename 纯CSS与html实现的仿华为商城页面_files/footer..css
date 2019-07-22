@@ -1,0 +1,190 @@
+﻿@charset "UTF-8";
+.footer {
+    background-color:#f0f0f0;
+}
+.footer .slogan-container {
+    border-top: 1px solid #EEE;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    line-height: 1.5;
+}
+.footer .slogan {
+    padding: 46px 0 46px;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.footer .slogan li {
+    float:left;
+    width:300px;
+    height:47px;
+    line-height: 47px;
+    font-size: 18px;
+    text-align: left;
+    vertical-align:middle;
+}
+.footer .slogan li a{
+    color: #333;
+}
+.footer .slogan li a:before{
+    content:"";
+    display:inline-block;
+    width:47px;
+    height:47px;
+    line-height:47px;
+    margin-right:16px;
+    vertical-align:middle;
+}
+.footer .slogan li:nth-child(1) a:before {
+    background:url(../images/footer/icon-common.png) no-repeat 0px -151px;
+}
+.footer .slogan li:nth-child(2) a:before {
+    background:url(../images/footer/icon-common.png) no-repeat -94px -151px;
+}
+.footer .slogan li:nth-child(3) a:before {
+    background:url(../images/footer/icon-common.png) no-repeat -47px -151px;
+}
+.footer .slogan li:nth-child(4) a:before {
+    background:url(../images/footer/icon-common.png) no-repeat -141px -151px;
+}
+.footer .service {
+    border-top: 1px solid #e8e8e8;
+    padding: 26px 0 18px;
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.footer .service .service-1{
+    width: 944px;
+    min-height: 164px;
+    margin-top: 2px;
+    border-right: 1px solid #ebebeb;
+}
+.footer .service .service-1 > ul {
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+.footer .service .service-1 > ul > li {
+    width: 16.66667%;
+}
+.footer .service .line {
+    background: #a8a8a8;
+    width: 22px;
+    height: 2px;
+    margin: 2px 0 12px 0!important;
+}
+.footer .service .service-1 > ul .title {
+    font-size: 14px!important;
+    padding-bottom: 12px;
+    color: #3a3a3a;
+    display: block;
+    border-left: none;
+    padding-left: 0;
+    line-height: 1.5!important;
+    margin-bottom: 0!important;
+}
+.footer .service .service-1 > ul li a {
+    color: #666;
+    line-height:24px;
+    font-size:12px;
+    line-height:24px;
+}
+.footer .service .service-1 > ul li a:hover{
+    color: #cb0a14;
+}
+.footer .service .service-1 > ul .title span{
+    display:inline-block;
+    color:#fff;
+    background: #CCC;
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    margin-right: 2px;
+    text-align:center;
+    line-height: 12px;
+}
+.footer .service .service-2 {
+    width: 210px;
+    min-height: 164px;
+    margin-top: 2px;
+    padding-left: 40px;
+}
+.footer .service .service-2 .phone-num {
+    color: #3a3a3a;
+    font-size:24px;
+    line-height: 1.5!important;
+}
+.footer .service .service-2 li{
+    line-height: 24px;
+    color: #666;
+    font-size:14px;
+}
+.footer .service .service-2 li a{
+    display:block;
+    width: 161px;
+    height: 35px;
+    padding: 0;
+    margin-top: 10px;
+    background: #FFF;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: center;
+    color: #900!important;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.footer .service .service-2 li a i {
+    display: inline-block;
+    height: 18px;
+    width: 22px;
+    margin-right: 8px;
+    vertical-align: middle;
+    background:url(../images/footer/icon-common.png) no-repeat -101px -23px;
+}
+.footer .footer-container {
+    background: #e6e6e6;
+    width: 100%;
+    min-width: 1200px;
+}
+.footer .footer-content {
+    padding: 26px 0 34px;
+    width: 1200px;
+    margin: 0 auto;
+    color: #666;
+    line-height: 1.5;
+}
+.footer .footer-content .footer-warrant-logo {
+    width: 79px;
+    height: 16px;
+    padding: 20px 38px 0 0;
+}
+.footer .footer-content p {
+    text-align: left;
+    color: #a4a4a4;
+    line-height: 20px;
+    font: 12px/20px "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+.footer .footer-content p a{
+    color: #a4a4a4;
+}
+.footer .footer-content p a:hover {
+    color: #cb0a14;
+}
+.footer .footer-content .footer-warrant-img {
+    padding: 15px 0 0;
+}
+.footer .footer-content .footer-warrant-img a {
+    display:block;
+    width: 70px;
+    margin-left: 4px;
+    height: 24px;
+    float:left;
+}
+.footer .footer-content .footer-warrant-img img{
+    vertical-align: top;
+    width: 70px;
+    height: 24px;
+}

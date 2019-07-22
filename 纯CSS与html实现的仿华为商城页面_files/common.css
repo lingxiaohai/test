@@ -1,0 +1,125 @@
+﻿@charset "UTF-8";
+body,dl,dd,p,h1,h2,h3,h4,h5,h6{margin:0;}
+ol,ul{margin:0;padding:0;list-style:none;}
+a {
+    color: #3a3a3a;
+    text-decoration: none;
+}
+a:hover{
+    color: #cb0a14;
+}
+img{border:0;}
+input {
+	border:none;
+	outline:medium;
+}
+.clearfloat:after{
+    display:block;
+    clear:both;content:"";
+    visibility:hidden;
+    height:0;
+} 
+.clearfloat{_zoom:1;}
+.layout{
+	width:1200px;
+	margin:0 auto;
+}
+.pos-rela{
+	position:relative;
+}
+.fl{
+	float: left;
+}
+.fr {
+    float: right;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 400;
+}
+
+.grid-price {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 20px 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #cc0e11;
+}
+.grid-desc {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 2px 20px 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #a4a4a4;
+}
+.grid-title {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 16px 20px 2px;
+    overflow: hidden;
+    color: #3a3a3a;
+    height: 40px;
+    display: table-cell;
+    vertical-align: bottom;
+    width: 259px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
+}
+.h {
+    position: relative;
+    padding: 30px 0 15px 0;
+}
+.h .title {
+    color: #3a3a3a;
+    font-size: 22px;
+    margin: 0;
+    line-height: 1;
+}
+.h .nav {
+    margin-left: 28px;   
+}
+
+.h .nav li {
+    float: left;
+}
+
+.h .nav li a {
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 10px;
+    color: #a4a4a4;
+    position: relative;
+}
+
+.h .nav li a:hover {
+    color: #ca151d;
+}
+.h .nav li a:hover:after {
+    display: block;
+    width: 100%;
+}
+.h .nav li a:after {
+    content: '';
+    width: 0;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    height: 2px;
+    background: #ca151d;
+}
+.h div a {
+    padding: 0 14px;
+    font-size: 18px;
+    color: #666;
+}
+.h div a:hover {
+    color: #ca151d;
+}
+.fontfamily{
+    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
